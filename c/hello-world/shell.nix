@@ -1,0 +1,1 @@
+../../.nix-shells/c.nix

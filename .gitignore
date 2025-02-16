@@ -2,3 +2,6 @@ __pycache__
 build/
 .exercism/
 .stack-work/
+c/**/*.o
+c/**/*.out
+c/**/*.out.dSYM
