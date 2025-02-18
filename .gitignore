@@ -1,5 +1,6 @@
-__pycache__
+__pycache__/
 build/
+wren_modules/
 .exercism/
 .stack-work/
 c/**/*.o
