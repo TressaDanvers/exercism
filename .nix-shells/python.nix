@@ -1,10 +1,6 @@
 with import <nixpkgs> {};
 mkShell {
-  buildInputs = [
-    (python3.withPackages ( python-pkgs: with python-pkgs; [
-      pytest
-    ]))
-  ];
+  buildInputs = [ (python3.withPackages (python-pkgs: with python-pkgs; [ pytest ])) ];
 
   shellHook = ''
     . "$HOME/.bashrc"

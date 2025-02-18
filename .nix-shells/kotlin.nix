@@ -1,10 +1,6 @@
 with import <nixpkgs> {};
-let
-in mkShell {
-  buildInputs = [
-    kotlin
-    jetbrains.jdk
-  ];
+mkShell {
+  buildInputs = [ kotlin jetbrains.jdk ];
 
   shellHook = ''
     . "$HOME/.bashrc"

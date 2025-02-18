@@ -1,8 +1,5 @@
 with import <nixpkgs> {};
-let
-in mkShell {
-  buildInputs = [];
-
+mkShell {
   shellHook = ''
     . "$HOME/.bashrc"
 

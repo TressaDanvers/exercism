@@ -1,10 +1,6 @@
 with import <nixpkgs> {};
-let
-in mkShell {
-  buildInputs = with haskellPackages; [
-    cabal-install
-    stack
-  ];
+mkShell {
+  buildInputs = with haskellPackages; [ cabal-install stack ];
 
   shellHook = ''
     . "$HOME/.bashrc"

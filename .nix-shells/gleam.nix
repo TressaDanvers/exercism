@@ -1,11 +1,6 @@
 with import <nixpkgs> {};
-let
-in mkShell {
-  buildInputs = [
-    erlang
-    gleam
-    rebar3
-  ];
+mkShell {
+  buildInputs = [ erlang gleam rebar3 ];
 
   shellHook = ''
     . "$HOME/.bashrc"

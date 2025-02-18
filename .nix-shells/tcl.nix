@@ -1,9 +1,6 @@
 with import <nixpkgs> {};
-let
-in mkShell {
-  buildInputs = [
-    tcl
-  ];
+mkShell {
+  buildInputs = [ tcl ];
 
   shellHook = ''
     . "$HOME/.bashrc"
