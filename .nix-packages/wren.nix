@@ -24,14 +24,13 @@ stdenv.mkDerivation {
   sourceRoot = ".";
 
   installPhase = ''
-    ls
     mv wren-essentials wren-console/deps/
     pushd wren-console/projects/make/
     make
-    pushd ../../bin/
+    popd
+    pushd wren-console/bin/
     mkdir -p $out/bin
     cp wrenc $out/bin/
-    popd
     popd
   '';
 

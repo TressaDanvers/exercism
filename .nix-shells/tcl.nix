@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 mkShell {
   buildInputs = [ tcl ];
   shellHook = ''
-    . ../../.nix-shells/nix-shell.sh
+    . ../../.nix-shells/hook.sh
     command -v rlwrap && alias tclsh='rlwrap tclsh'
   '';
 }
