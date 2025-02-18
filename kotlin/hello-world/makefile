@@ -1,9 +1,7 @@
-build=./build
-
 .PHONY: test
 test:
 	./gradlew --warning-mode none test
 
 .PHONY: clean
 clean:
-	rm -r $(build)
+	rm -r ./build ./.gradle
