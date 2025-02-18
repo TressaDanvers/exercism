@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 mkShell {
   buildInputs = [
-    (callPackage ../../.nix-packages/wren/wren.nix {})
+    (callPackage ../../.nix-packages/wren.nix {})
   ];
 
   shellHook = ''
