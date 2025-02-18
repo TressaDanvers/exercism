@@ -5,3 +5,7 @@ test: package-install hello-world.spec.wren hello-world.wren
 .PHONY: package-install
 package-install: package.wren
 	wrenc package.wren install
+
+.PHONY: clean
+clean:
+	rm -rf wren_modules/
