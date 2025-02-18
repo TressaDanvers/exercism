@@ -3,6 +3,7 @@ build/
 wren_modules/
 .exercism/
 .stack-work/
+.gradle/
 c/**/*.o
 c/**/*.out
 c/**/*.out.dSYM
