@@ -1,3 +1,6 @@
 [submodule ".test-frameworks/Unity"]
 	path = .test-frameworks/Unity
 	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule ".test-frameworks/bats-assert"]
+	path = .test-frameworks/bats-assert
+	url = https://github.com/bats-core/bats-assert

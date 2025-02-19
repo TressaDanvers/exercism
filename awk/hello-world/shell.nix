@@ -1,0 +1,1 @@
+../../.nix-shells/awk.nix

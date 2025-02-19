@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   installPhase = ''
     mv wren-essentials wren-console/deps/
     pushd wren-console/projects/make/
-    make
+    make > /dev/null
     popd
     pushd wren-console/bin/
     mkdir -p $out/bin
