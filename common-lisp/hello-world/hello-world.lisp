@@ -4,4 +4,4 @@
 
 (in-package :hello-world)
 
-(defun hello () "Goodbye, Mars!")
+(defun hello () "Hello, World!")
