@@ -1,5 +1,5 @@
 with import <nixpkgs> {};
 mkShell {
-  buildInputs = [ sbcl ];
+  buildInputs = [ roswell ];
   shellHook = ''. ../../.nix-shells/hook.sh'';
 }
