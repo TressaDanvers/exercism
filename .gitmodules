@@ -1,3 +1,9 @@
 [submodule "c/test-framework"]
 	path = c/test-framework
 	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "bash/test-framework/support"]
+	path = bash/test-framework/support
+	url = https://github.com/bats-core/bats-support
+[submodule "bash/test-framework/assert"]
+	path = bash/test-framework/assert
+	url = https://github.com/bats-core/bats-assert
