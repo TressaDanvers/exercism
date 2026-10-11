@@ -1,9 +1,5 @@
-### If you wish to use extra libraries (math.h for instance),
-### add their flags here (-lm in our case) in the "LIBS" variable.
-
 LIBS = -lm
 
-###
 CFLAGS  = -std=c99
 CFLAGS += -g
 CFLAGS += -Wall
