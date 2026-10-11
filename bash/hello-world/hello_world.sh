@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-
-echo "Goodbye, Mars!"
+#!/usr/bin/env sh
+echo "Hello, World!"
